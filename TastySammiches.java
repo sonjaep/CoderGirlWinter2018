@@ -14,7 +14,7 @@ public class TastySammiches
         int goalSoups = 70;
 
         out.println("Let's check sales!");
-        out.println("How many veggie sandwiches did you sell today?");
+        out.println("You're goal is 50. How many veggie sandwiches did you sell today?");
         int veggies;
         veggies = keyboard.nextInt();
         keyboard.skip("\n");
@@ -26,7 +26,7 @@ public class TastySammiches
         }
 
         out.println(" ");
-        out.println("How many burgers did you sell today?");
+        out.println("You're goal is 250. How many burgers did you sell today?");
         int burgers;
         burgers = keyboard.nextInt();
         keyboard.skip("\n");
@@ -38,7 +38,7 @@ public class TastySammiches
         }
 
         out.println(" ");
-        out.println("How many subs did you sell today?");
+        out.println("You're goal is 180. How many subs did you sell today?");
         int subs;
         subs = keyboard.nextInt();
         keyboard.skip("\n");
@@ -50,7 +50,7 @@ public class TastySammiches
         }
 
         out.println(" ");
-        out.println("How many soups did you sell today?");
+        out.println("You're goal is 70. How many soups did you sell today?");
         int soups;
         soups = keyboard.nextInt();
         keyboard.skip("\n");
