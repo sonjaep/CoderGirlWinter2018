@@ -16,6 +16,10 @@ public class MethodCalc {
         return a * b;
     }
 
+    public static int divide(int a, int b) {
+        return a / b;
+    }
+
     public static void main(String[] args) {
         // First we call the add function.
         // It takes two input parameters which are 5 and 7 here.
@@ -28,5 +32,7 @@ public class MethodCalc {
         System.out.println(y);
         int z = multiply(3, 8);
         System.out.println(z);
+        int s = divide(20, 4);
+        System.out.println(s);
     }
 }
