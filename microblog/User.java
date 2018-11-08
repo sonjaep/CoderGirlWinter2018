@@ -1,4 +1,4 @@
-package Microblog;
+package microblog;
 
 import java.util.ArrayList;
 
